@@ -1,0 +1,268 @@
+c s0iP0,1  #  c s0iP0,1kA0,0  #  c s0iP0,2  #  c s0iP0,3  #  c s0iP0,4
+cGs1iP1,0  #  cRs1iP1,1  #  c s0iP1,2  #  c s0iP1,3  #  c s0iP1,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  c s0iP2,3  #  c s0iP2,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  c s0iP3,3  #  c s0iP3,4
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 1]
+[1, 1, 3, 2, 2]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1       #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs3iP2,4  #  cRs3iP2,4kA2,2  #  cRs3iP2,4kA2,3
+cRs1iP3,0  #  cRs1iP3,1       #  cBs1iP3,2  #  cGs2iP3,4       #  cGs2iP3,4kA3,3
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 1]
+[1, 1, 3, 2, 3]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs3iP2,4  #  cRs3iP2,4kA2,2  #  cRs3iP2,4kA2,3
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cGs1iP3,3  #  cBs1iP3,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 1]
+[1, 1, 3, 2, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs3iP2,4  #  cRs3iP2,4kA2,2  #  cRs3iP2,4kA2,3
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cGs1iP3,3  #  cYs1iP3,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 1]
+[1, 1, 3, 3, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs3iP2,4  #  cRs3iP2,4kA2,2  #  cRs3iP2,4kA2,3
+cRs1iP3,0  #  cRs1iP3,1  #  cBs2iP3,3  #  cBs2iP3,3kA3,2  #  cYs1iP3,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 1]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs3iP2,4  #  cRs3iP2,4kA2,2  #  cRs3iP2,4kA2,3
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs1iP3,3  #  cYs1iP3,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 3]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs2iP2,3  #  cRs2iP2,3kA2,2  #  cBs1iP2,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs1iP3,3  #  cYs1iP3,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 1, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs2iP2,3  #  cRs2iP2,3kA2,2  #  cYs2iP3,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs1iP3,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 3, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cBs1iP2,3  #  cYs2iP3,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs1iP3,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 2]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs3iP1,4  #  cGs3iP1,4kA1,2  #  cGs3iP1,4kA1,3
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3  #  cYs2iP3,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 3]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs2iP1,3  #  cGs2iP1,3kA1,2  #  cBs1iP1,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3  #  cYs2iP3,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 2, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs2iP1,3  #  cGs2iP1,3kA1,2  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 3, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs1iP1,2  #  cBs1iP1,3  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 2, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cGs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 3, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cBs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 1]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs3iP0,4  #  cRs3iP0,4kA0,2  #  cRs3iP0,4kA0,3
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 2]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs2iP0,3  #  cRs2iP0,3kA0,2  #  cGs1iP0,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 3]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs2iP0,3  #  cRs2iP0,3kA0,2  #  cBs1iP0,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 1, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs2iP0,3  #  cRs2iP0,3kA0,2  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 2, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs1iP0,2  #  cGs1iP0,3  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 3, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs1iP0,2  #  cBs1iP0,3  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 1, 4, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cRs1iP0,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3kA0,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 2, 4, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cGs1iP0,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3kA0,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 3, 4, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cBs1iP0,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs1iP1,2  #  cYs2iP3,3kA0,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
+[
+[0, 0, 4, 4, 4]
+[2, 1, 4, 4, 4]
+[2, 2, 1, 4, 4]
+[1, 1, 3, 4, 4]
+]
+c s0iP0,1  #  c s0iP0,1kA0,0  #  cYs2iP1,2  #  cYs2iP3,3  #  cYs2iP3,4
+cGs1iP1,0  #  cRs1iP1,1  #  cYs2iP1,2kA0,2  #  cYs2iP3,3kA0,3  #  cYs2iP3,4kA0,4
+cGs2iP2,1  #  cGs2iP2,1kA2,0  #  cRs1iP2,2  #  cYs2iP3,3kA1,3  #  cYs2iP3,4kA1,4
+cRs1iP3,0  #  cRs1iP3,1  #  cBs1iP3,2  #  cYs2iP3,3kA2,3  #  cYs2iP3,4kA2,4
+
