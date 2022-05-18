@@ -41,7 +41,7 @@ def rec(it=0):
         return 
     for col in [RED, GREEN, BLUE, YELLOW]:
         puyos[i][j] = StaticPuyo(i,j,col)
-        if all(puyos[i][j].touchWithoutVanish(puyos[pi][pj])for pi , pj in make_parent(i,j)):
+        if all(puyos[i][j].touchWithoutVanish(puyos[pi][pj])for pi , pj in make_children(i,j)):
             rec(it+1) 
         puyos[i][j].disconnect()
 rec()
