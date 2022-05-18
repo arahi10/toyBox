@@ -25,7 +25,7 @@ def make_adjecent(i, j):
         yield (i+1, j)
 # size (連結数)計算用の親は隣接ぷよのうちインデックスが辞書順で若い人←バグってそう、若くない人では？
 # ↑バグってませんでした
-def make_childs(i,j):
+def make_children(i,j):
     if i!=0:
         yield (i-1,j)
     if j!=0:
