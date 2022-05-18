@@ -18,7 +18,7 @@ ANS = 0
 for i in range(1,MAXDAN):
     for j in range(MAXRETU):
         if DODAI[i][j]!="X":
-            for ai,aj in make_parent(i,j):
+            for ai,aj in make_children(i,j):
                 puyos[i][j].touchWithoutVanish(puyos[ai][aj])
 #print debug
 print('\n'.join('  #  '.join(map(lambda x:x.detail(),l))for l in puyos))
