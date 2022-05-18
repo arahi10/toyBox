@@ -39,7 +39,11 @@ class StaticPuyo:
         if self.getsize() + other.getsize() >= 4:
             return False
         self.size += other.getsize()
-        other.getparent().pushpar(self)
+        if other.parent is None:
+            other.pushpar(self)
+        else:
+            other.getparent().pushpar(self)
+            other.pushpar(self)
         if (self.childA == None):
             self.childA = other
         else:
