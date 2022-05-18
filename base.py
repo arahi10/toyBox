@@ -24,6 +24,7 @@ def make_adjecent(i, j):
     if i != MAXDAN-1:
         yield (i+1, j)
 # size (連結数)計算用の親は隣接ぷよのうちインデックスが辞書順で若い人←バグってそう、若くない人では？
+# ↑バグってませんでした
 def make_parent(i,j):
     if i!=0:
         yield (i-1,j)
