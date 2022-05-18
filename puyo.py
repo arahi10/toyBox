@@ -71,7 +71,7 @@ class StaticPuyo:
             ret+="c"+ self.bbpar.strij()
         if self.childA is not None :
             ret += "kA"+self.childA.strij()
-        if self.bpar is not None :
+        if self.childB is not None :
             ret += "kB"+self.childB.strij()
         
         return ret
