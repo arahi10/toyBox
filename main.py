@@ -2,7 +2,6 @@ from base import *
 from table import Table
 from time import time
 
-OUTPUTFILE = 'hoge.txt'
 
 """
 TODO 
@@ -12,27 +11,6 @@ AAABAAの6縦vs45に終止符を打つ
 →盤面とネクスト ネクネクを与えてうけの広さを表示するツールの開発
 """
 
-
-# DODAI = [
-#     "  XXXX",
-#     "GRXXXX",
-#     "GGRXXX",
-#     "RRBXXX"]
-DODAI = [
-    "  XXXX",
-    "GRXXXX",
-    "GGRXXX",
-    "RRGXXX"]
-# DODAI = [
-#     "YYYXXX",
-#     "GRXXXX",
-#     "GGRXXX",
-#     "RRBXXX"]
-# DODAI = [
-#     "YYYXXX",
-#     "GRXXXX",
-#     "GGRXXX",
-#     "RRGXXX"]
 
 color = [
     [-1 if s == "X" else NULL if s == ' ' else t[s]for s in l]
