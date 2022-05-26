@@ -1,14 +1,8 @@
 from base import *
 from table import Table
 from time import time
-start = time()
 
-def flatten(i, j):
-    return i*MAXRETU+j
-
-
-def spread(o):
-    return o//MAXRETU, o % MAXRETU
+OUTPUTFILE = 'hoge.txt'
 
 DODAI = [
     "  XXXX",
@@ -30,18 +24,33 @@ DODAI = [
 #     "GRXXXX",
 #     "GGRXXX",
 #     "RRGXXX"]
-OUTPUTFILE = 'hoge.txt'
+
 color = [
     [-1 if s == "X" else NULL if s == ' ' else t[s]for s in l]
     for l in DODAI]
 
+start = time()
+
+
+def flatten(i, j):
+    return i*MAXRETU+j
+
+
+def spread(o):
+    return o//MAXRETU, o % MAXRETU
+
+
 def parent(i, tbl):
     return i if tbl[i] < 0 else parent(tbl[i], tbl)
+
+
 def same(i, j, tbl):
     return parent(i, tbl) == parent(j, tbl)
 
+
 def size(i, tbl):
     return -tbl[parent(i, tbl)]
+
 
 def unite(i, j, tbl: list):
     if same(i, j, tbl):
@@ -54,26 +63,29 @@ def unite(i, j, tbl: list):
         tbl[i] = j
         return True
 
+
 def memo():
-    global pool,start
-    #with open("result.txt",'w') as file:
-    with open(OUTPUTFILE,'w') as file:
-        for i,(k,v) in enumerate(pool.items()):
+    global pool, start
+    # with open("result.txt",'w') as file:
+    with open(OUTPUTFILE, 'w') as file:
+        for i, (k, v) in enumerate(pool.items()):
             file.write(f"{i} : {v}\n{k}\n")
     print(time()-start)
 
 
 pool = {}
-#ANS =0 
+#ANS =0
+
+
 def rec(ind, i, j, *tbl):
-    global color, pool#  , ANS
+    global color, pool  # , ANS
     if ind == MAXDAN*MAXRETU:
         tmp = Table(color)
         ret = tmp.chain()
         if ret:
             key = show(ret)
             if key in pool:
-                pool[key]+=1
+                pool[key] += 1
             else:
                 pool[key] = 1
             # ANS += 1
@@ -93,7 +105,7 @@ def rec(ind, i, j, *tbl):
             rec(ind+1, *spread(ind+1), *this)
     else:
         old = tbl
-        for col in (RED,GREEN,BLUE,YELLOW):
+        for col in (RED, GREEN, BLUE, YELLOW):
             color[i][j] = col
             this = list(tbl)
             for ci, cj in make_children(i, j):
@@ -113,15 +125,14 @@ Rs = [3*MAXRETU, 3*MAXRETU+1]
 for i, j in zip(Gs, Gs[1:]):
     unite(i, j, table)
 if ZABUTON:
-    Ys = [0,1,2]
+    Ys = [0, 1, 2]
     for i, j in zip(Ys, Ys[1:]):
         unite(i, j, table)
 i, j = Rs
 unite(i, j, table)
 
-#111~120 要らないかも(recの中でやるので)
+# 111~120 要らないかも(recの中でやるので)
 
 rec(0, 0, 0, *table)
 
 memo()
-
