@@ -1,4 +1,4 @@
-
+NULL = 0
 RED = 1
 GREEN = 2
 BLUE = 3
@@ -7,14 +7,14 @@ YELLOW = 4
 MAXRETU = 6 # 書き換え忘れ
 MAXDAN = 4
 RENSA = 5 # 全探索領域を使い切ると最大5連鎖になるはず
-
+ZABUTON = False
 t = {"R":RED,"B":BLUE,"G":GREEN,"Y":YELLOW}
 
 def retu_dan_to_ij(retu, dan):
     return MAXDAN-dan, retu-1
 
 
-def make_adjecent(i, j):
+def make_adjacent(i, j):
     if i != 0:
         yield (i-1, j)
     if j != 0:
@@ -29,3 +29,9 @@ def make_children(i,j):
         yield (i-1,j)
     if j!=0:
         yield (i,j-1)
+
+def show(ans: dict):
+    f = [["0"]*MAXRETU for j in range(MAXDAN)]
+    for (i, j) in ans:
+        f[i][j] = str(ans[i, j])
+    return ','.join(map(''.join, f))
