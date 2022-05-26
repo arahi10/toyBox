@@ -103,7 +103,7 @@ def rec(ind, i, j, *tbl):
             #     memo()
             #     exit()
         return
-    if color[i][j] != -1:
+    if color[i][j] > 0:
         col = color[i][j]
         this = list(tbl)
         for ci, cj in make_children(i, j):
