@@ -2,9 +2,9 @@ from collections import defaultdict
 from operator import itemgetter as it
 res = defaultdict(int)
 print('start')
-DUMPFILE_ANOTHER = 'result_zabuton.txt'
-DUMPFILE_SAME = 'result_zabuton2.txt'
-CONCATE_FILE = 'all_zabuton.txt'
+DUMPFILE_ANOTHER = 'result.txt'
+DUMPFILE_SAME = 'result2.txt'
+CONCATE_FILE = 'all.txt'
 with open(DUMPFILE_ANOTHER, 'r') as file:
     while (line1 := file.readline()) and (line2 := file.readline()):
         _, cnt = line1.split(" : ")

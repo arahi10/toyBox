@@ -4,16 +4,25 @@ from time import time
 
 OUTPUTFILE = 'hoge.txt'
 
-DODAI = [
-    "  XXXX",
-    "GRXXXX",
-    "GGRXXX",
-    "RRBXXX"]
+"""
+TODO 
+ぷよ譜に書き起こし
+AAABAAの6縦vs45に終止符を打つ
+うけの広さを評価できるようにする
+→盤面とネクスト ネクネクを与えてうけの広さを表示するツールの開発
+"""
+
+
 # DODAI = [
 #     "  XXXX",
 #     "GRXXXX",
 #     "GGRXXX",
-#     "RRGXXX"]
+#     "RRBXXX"]
+DODAI = [
+    "  XXXX",
+    "GRXXXX",
+    "GGRXXX",
+    "RRGXXX"]
 # DODAI = [
 #     "YYYXXX",
 #     "GRXXXX",
