@@ -58,7 +58,10 @@ class Table:
                 self.table[i][j] = Puyo(NULL, i, j)
                 ret[i, j] = head
             head += 1
-
+        else:
+            i, j = 0, 0
+            self.table[i][j] = Puyo(NULL, i, j)
+            ret[i, j] = head
         for i, j in ((1, 0), (2, 0), (2, 1)):
             self.table[i][j] = Puyo(NULL, i, j)
             ret[i, j] = head
