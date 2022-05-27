@@ -13,7 +13,14 @@
 
 [all_zabuton.txt](https://github.com/arahi10/toyBox/blob/main/all_zabuton.txt) (座布団あり)
 
-の2ファイル。
+の2ファイルです。
+
+それぞれ[とこぷよシミュ](http://www.puyop.com/s/)に起こしたのが
+
+[urls.txt](https://github.com/arahi10/toyBox/blob/main/urls.txt), 
+
+[urls_zabuton.txt](https://github.com/arahi10/toyBox/blob/main/urls_zabuton.txt)
+です。行頭の数字は実行結果ファイルにもあるインデックスと対応してます。
 ### 結果の見方
 "同じ"盤面になったパターン数が多い順で並べ替えてあります。("同じ"の意味については[こちらの章を参照](https://github.com/arahi10/toyBox#%E7%9B%A4%E9%9D%A2%E3%81%AE%E5%90%8C%E5%9E%8B%E5%88%A4%E5%AE%9A%E3%81%AE%E6%96%B9%E6%B3%95))
 ```
